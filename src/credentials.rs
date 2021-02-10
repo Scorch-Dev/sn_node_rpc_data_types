@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Serialize, Deserialize)]
 pub struct Credentials {
     /// One time passphrase for the RPC
-    passphrase: String,
+    pub passphrase: String,
     /// Signature of the passphrase as hex
-    signature: String,
+    pub signature: String,
 }
