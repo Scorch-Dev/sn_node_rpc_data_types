@@ -1,6 +1,5 @@
-
 mod credentials;
-mod keys;
+mod rewards;
 
-pub use keys::*;
 pub use credentials::*;
+pub use rewards::*;
