@@ -1,7 +1,7 @@
 [package]
-name = "sn_node_rpc_types"
-version = "0.1.0"
-authors = ["Alan Armero <scorchdev@gmail.com>"]
+name = "sn_node_rpc_data_types"
+version = "0.0.1"
+authors = ["Scorch-Dev <scorchdev@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
