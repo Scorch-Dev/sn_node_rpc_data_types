@@ -1,6 +1,10 @@
 use serde::{Deserialize, Serialize};
 use std::fmt::Debug;
 
+// methods
+pub const METHOD_GET_REWARDS_INFO: &str = "get-rewards-info";
+pub const METHOD_SET_REWARD_KEY: &str = "set-reward-key";
+
 /// A struct to hold the result of get-reward-key
 #[derive(Serialize, Deserialize, Debug)]
 pub struct GetRewardsInfoResult {
