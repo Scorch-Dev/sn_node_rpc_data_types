@@ -1,8 +1,10 @@
 use serde::{Deserialize, Serialize};
 use std::fmt::Debug;
 
-// methods
+/// Get info regarding rewards, like our reward-key
 pub const METHOD_GET_REWARDS_INFO: &str = "get-rewards-info";
+
+/// Used to set the reward key for the node
 pub const METHOD_SET_REWARD_KEY: &str = "set-reward-key";
 
 /// A struct to hold the result of get-reward-key
