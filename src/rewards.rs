@@ -15,8 +15,12 @@ pub struct GetRewardsInfoResult {
     // TODO: Other info. Current balance, farming stats, etc.
 }
 
-/// set reward key result is the same as get reward key result
-pub type SetRewardKeyResult = GetRewardsInfoResult;
+/// What you get back after succesfully setting the reward key
+#[derive(Serialize, Deserialize, Debug)]
+pub struct SetRewardKeyResult {
+    /// the old key you were using
+    pub old_reward_key: String,
+}
 
 /// A struct to hold the parameters of set-reward-key
 #[derive(Serialize, Deserialize, Debug)]
