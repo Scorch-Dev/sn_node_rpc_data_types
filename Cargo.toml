@@ -9,4 +9,4 @@ edition = "2018"
 [dependencies]
 serde = { version = "~1.0.111", features = [ "derive" ] }
 serde_with = { version = "~1.6.4", default-features = false, features = [ "hex" ] }
-sn_data_types = { version = "~0.14.0" }
+sn_data_types = { version = "~0.15.0" }
